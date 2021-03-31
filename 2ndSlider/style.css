@@ -17,17 +17,10 @@ body {
   flex-direction: column;
 }
 
-.title {
-  display:none;
-  font-size: 38px;
-  color: #616161;
-  font-style: italic;
-  font-weight: 800;
-}
 
 .timeline {
   width: 100%;
-  height: 90%;
+  height: 100%;
   background-color: #fff;
   box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.2);
 }
@@ -185,13 +178,7 @@ body {
   transform: translateX(3px);
 }
 @media screen and (min-width: 768px) {
-  .title {
-  display:inline;
-  font-size: 38px;
-  color: #616161;
-  font-style: italic;
-  font-weight: 800;
-  }
+
   .timeline .swiper-slide::after {
     top: 0px;
     right: -30%;
