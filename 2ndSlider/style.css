@@ -185,6 +185,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .timeline .swiper-slide::after {
+    top: 0;
     right: -30%;
     bottom: -8%;
     width: 240px;
